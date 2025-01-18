@@ -1,7 +1,12 @@
 import { useState } from 'react'
+import BookDetailsComponent from './book/BookDetailsComponent'
+import "./App.css";
+import BookAddFormComponent from './book/BookAddFormComponent';
+
 function App() {
-  return <div>
-    Library Manager
+  return <div id="applicationContainer">
+    <BookAddFormComponent/>
+    <BookDetailsComponent/>
   </div>
 }
 

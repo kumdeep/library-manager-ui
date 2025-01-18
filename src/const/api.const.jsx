@@ -1,0 +1,1 @@
+export const LIBRARY_SERVICE_BASE_URL = "http://localhost:10001/lib-manager/api"
